@@ -1,8 +1,8 @@
 <input
     type="button"
-    class="form-control"
+    class="btn brn-primary"
     name="filters.{{$view->id}}"
     id="{{$view->id}}"
-    value="Filter"
+    value="{{$view->title}}"
     wire:model="filters.{{$view->id}}"
 />
